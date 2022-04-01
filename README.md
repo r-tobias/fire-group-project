@@ -1,5 +1,4 @@
 ## Horoscope React App
-Demmy-dev
 About Us:
 Rebecca
 Charlton
