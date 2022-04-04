@@ -1,5 +1,12 @@
 
 import './App.css';
+import fetchData from './services/constants';
+
+
+
+fetchData()
+
+
 
 function App() {
   return (
