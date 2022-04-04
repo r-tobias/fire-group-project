@@ -1,11 +1,13 @@
-function Zodiac(){
+
+
+function Input({}){
 
     return(
         <div>
-
+       
         </div>
     )
 
 }
 
-export default Zodiac
+export default Input
