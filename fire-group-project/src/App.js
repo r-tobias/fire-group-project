@@ -3,7 +3,7 @@ import './App.css';
 import fetchData from './services/constants';
 import {NavLink, Route, Routes} from 'react-router-dom'
 import { useEffect, useState } from 'react'
-import Birthday from './components/Birthday';
+import Input from './components/Input';
 import Home from './components/Home';
 import AboutUs from './components/AboutUs';
 import Zodiac from './components/Zodiac';
@@ -14,7 +14,6 @@ import Zodiac from './components/Zodiac';
 function App() {
 
 fetchData()
-const [userInput, setUserInput] = useState('')
 
 
   return (
@@ -23,7 +22,6 @@ const [userInput, setUserInput] = useState('')
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
-        <Route path="/birthday" element={<Birthday/>} />
         {/* <Route path="/Zodiac/" element={<Zodiac />} /> */}
       </Routes>
 

@@ -1,11 +1,13 @@
-function Birthday(){
+
+
+function Input({}){
 
     return(
         <div>
-
+       
         </div>
     )
 
 }
 
-export default Birthday
+export default Input
