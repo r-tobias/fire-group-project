@@ -1,33 +1,34 @@
+
 import { NavLink } from 'react-router-dom'
 
+
 function Home () {
-    return (
+    return(
         <div>
-            <h1>Welcome to the Astrology Hub!</h1> 
+            <h1>Welcome to Astrology Hub!</h1>
             <nav>
                 <ul>
-                    <NavLink to='/about'>
-                        <li>About Us</li>
+                    <NavLink to="/about">
+                    <li>About us</li>
                     </NavLink>
 
-                    <NavLink to='/birthday'>
-                    <li>Birthday</li>
+                    <NavLink to="/birthday">
+                    <li>Birthday Analyzer</li>
                     </NavLink>
 
-                    <NavLink to='/horoscope'>
+                    <NavLink to="/horoscope">
                     <li>Daily Horoscope</li>
                     </NavLink>
-
-                    <NavLink to='/zodiac'>
+                    
+                    <NavLink to="/zodiac">
                     <li>Zodiac</li>
                     </NavLink>
-                    
-                    <NavLink to='/search'>
-                    <li>Search</li>
-                    </NavLink>
+
+                    <input type="text" placeholder="Zodiac Signs" />
+                    <input type="button" value="Click"/>
+ 
                 </ul>
             </nav>
-           
         </div>
     )
 }

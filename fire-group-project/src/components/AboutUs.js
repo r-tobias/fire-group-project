@@ -1,9 +1,13 @@
-function AboutUs() {
+
+
+function AboutUs(){
+
     return(
         <div>
-            <h1>About Us</h1> 
+            <h1>Hello We are </h1>
         </div>
     )
+
 }
 
 export default AboutUs
