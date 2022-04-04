@@ -8,8 +8,8 @@ async function fetchData(input,day){
 
  try{
         
-        let response  = await axios.get(`${DEFAULT_URL}`)
-        let result = response
+        let response  = await axios.post(`${DEFAULT_URL}`)
+        let result = response.data
         console.log(result)
         return result   
   
