@@ -24,4 +24,7 @@ Documentation --> https://aztro.readthedocs.io/en/latest/
 ## Resources 
 https://aztro.readthedocs.io/en/latest/
 
-
+## CSS
+CSS Resources 
+https://medium.com/level-up-web/100-css-resources-for-web-designers-and-developers-c060bed7a362
+https://alligator.io/css/css-resources/
