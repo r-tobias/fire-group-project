@@ -26,21 +26,7 @@ function Home () {
             <h1>Welcome to Astrology Hub!</h1>
             <nav>
                 <ul>
-                    <NavLink to="/about">
-                    <li>About us</li> 
-                    </NavLink>
-
-                    <NavLink to="/birthday">
-                    <li>Birthday Analyzer</li>
-                    </NavLink>
-
-                    <NavLink to="/horoscope">
-                    <li>Daily Horoscope</li>
-                    </NavLink>
-                    
-                    <NavLink to="/zodiac">
-                    <li>Zodiac</li>
-                    </NavLink>
+                
                     <Button onChange={(event) => handleChange(event)} onClick={(event) => searchButton(event)} />
                 </ul>
             </nav>

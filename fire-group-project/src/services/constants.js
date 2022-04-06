@@ -2,7 +2,7 @@ import axios from 'axios'
 
 
 
-async function fetchData(input,day){
+async function fetchData(input, day){
     const DEFAULT_URL = `https://aztro.sameerkumar.website/?sign=aries&day=today`
     const BASE_URL= `https://aztro.sameerkumar.website?sign=${input}`
     // &day=${day}
@@ -20,13 +20,12 @@ async function fetchData(input,day){
        let result = response.data
        return result   
     }
+    
 }
     catch (error) {
         console.log(error)
     }  
 
 }
-
-
 
 export default fetchData
