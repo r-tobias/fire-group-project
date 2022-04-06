@@ -1,17 +1,41 @@
 
 import './App.css';
 import fetchData from './services/constants';
+import {NavLink, Route, Routes} from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import Input from './components/Input';
+import Home from './components/Home';
+import AboutUs from './components/AboutUs';
+import Zodiac from './components/Zodiac';
 
-
-
-fetchData()
 
 
 
 function App() {
+
+fetchData()
+
+
   return (
     <div className="App">
-    
+      <nav className="buttons">
+
+          <NavLink to="/about">About us </NavLink>
+          <NavLink to="/birthday">Birthday Analyzer</NavLink>
+          <NavLink to="/horoscope">Daily Horoscope</NavLink>        
+          <NavLink to="/zodiac">Zodiac</NavLink>
+          <NavLink to="/">Home</NavLink>
+          
+      </nav>
+
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/zodiac" element={<Zodiac />} />
+
+      </Routes>
+
     </div>
   );
 }
