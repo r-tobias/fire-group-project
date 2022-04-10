@@ -23,7 +23,7 @@ useEffect(  ()=>{
     return(
         <div>
             {horoscope ? <p>reading: {horoscope.description}</p> :<p></p>}
-
+            {horoscope ? <p>current date: {horoscope.current_date}</p> :<p></p>}
             {horoscope ? <p>date range: {horoscope.date_range}</p> :<p></p>}
         </div>
     )
