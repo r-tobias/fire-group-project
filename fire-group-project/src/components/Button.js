@@ -1,6 +1,6 @@
 import TimeFrame from "./TimeFrame"
 import { useState, useEffect} from 'react'
-
+import {NavLink, Route, Routes} from 'react-router-dom'
 
 function Button({handleSelectedSign}){
 
@@ -18,9 +18,11 @@ function Button({handleSelectedSign}){
           
             <nav>
             {signs.map((sign) =>(
-                <button key={sign} onClick={()=> handleSelectedSign(sign)}>{sign}</button>      
+                <NavLink to='/time' key={sign} onClick={()=> handleSelectedSign(sign)}>{sign}<br/></NavLink>      
             ))}
             </nav>
+           
+
         </div>
 
     )

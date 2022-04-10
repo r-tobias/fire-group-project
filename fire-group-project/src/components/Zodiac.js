@@ -17,7 +17,7 @@ function Zodiac(){
         <div>
             <h1>Zodiac</h1>
             <Button handleSelectedSign={setSelectedSign}/>
-            <TimeFrame selectTime={setTimeFrame}/>
+            
         </div>
     )
 }
