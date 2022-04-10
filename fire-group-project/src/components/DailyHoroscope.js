@@ -90,3 +90,5 @@ function DailyHoroscope () {
         </div>
     )
 }
+
+export default DailyHoroscope
