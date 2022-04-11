@@ -1,5 +1,28 @@
-function DailyHoroscope () {
-    return (
+
+import fetchData from "../services/constants"
+import { useState, useEffect} from 'react'
+
+function DailyHoroscope({sign, timeframe}){
+
+const [horoscope, setHoroscope] = useState('');
+
+
+
+
+useEffect(  ()=>{
+   const reading = async() =>{
+    const zodiac = await fetchData(sign, timeframe)
+        setHoroscope(zodiac)
+        console.log(horoscope)
+   } 
+   reading()
+
+},[sign, timeframe])
+    
+
+    return(
+        <div>
+            {horoscope ? <p>reading: {horoscope.description}</p> :<p></p>}
         <div>
             <h1> Daily Horoscope</h1>
 
@@ -86,7 +109,7 @@ function DailyHoroscope () {
                 <img src="https://www.pagangrimoire.com/wp-content/uploads/2020/12/Pisces-Symbol-2.jpg" alt="Pisces Logo"/>
             </div>
         </header>
-
+            {horoscope ? <p>date range: {horoscope.date_range}</p> :<p></p>}
         </div>
     )
 }
