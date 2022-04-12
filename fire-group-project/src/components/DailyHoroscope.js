@@ -2,7 +2,7 @@
 import fetchData from "../services/constants"
 import { useState, useEffect} from 'react'
 
-function DailyHoroscope({sign, timeframe}){
+export default function DailyHoroscope({sign, timeframe}){
 
 const [horoscope, setHoroscope] = useState('');
 
@@ -22,7 +22,9 @@ useEffect(  ()=>{
 
     return(
         <div>
-            {horoscope ? <p>reading: {horoscope.description}</p> :<p></p>}
+            {horoscope ? <p>Date: {horoscope.current_date}</p> :<p></p>}
+            {horoscope ? <p>Date Range: {horoscope.date_range}</p> :<p></p>}
+            {horoscope ? <p>Reading: {horoscope.description}</p> :<p></p>}
         <div>
             <h1> Daily Horoscope</h1>
 
@@ -109,7 +111,9 @@ useEffect(  ()=>{
                 <img src="https://www.pagangrimoire.com/wp-content/uploads/2020/12/Pisces-Symbol-2.jpg" alt="Pisces Logo"/>
             </div>
         </header>
-            {horoscope ? <p>date range: {horoscope.date_range}</p> :<p></p>}
+
+           
+        </div>
         </div>
     )
 }
