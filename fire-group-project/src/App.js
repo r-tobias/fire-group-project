@@ -12,13 +12,11 @@ import TimeFrame from './components/TimeFrame';
 function App() {
   return (
     <div className="App">
+      
       <nav className="buttons">
-
-          <NavLink to="/about">About us </NavLink>
-          <NavLink to="/horoscope">Daily Horoscope</NavLink>        
+          <NavLink to="/about">About us </NavLink>     
           <NavLink to="/zodiac">Zodiac</NavLink>
           <NavLink to="/">Home</NavLink>
-
       </nav>
 
 
