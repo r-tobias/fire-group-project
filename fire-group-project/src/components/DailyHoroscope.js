@@ -118,4 +118,4 @@ useEffect(  ()=>{
     )
 }
 
-export default DailyHoroscope
+// export default DailyHoroscope
