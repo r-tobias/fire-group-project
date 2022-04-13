@@ -18,7 +18,7 @@ function Button({handleSelectedSign}){
           
             <nav>
             {signs.map((sign) =>(
-                <button to='/time' key={sign} onClick={()=> handleSelectedSign(sign)}>{sign}<br/></button>      
+                <NavLink to='/time' key={sign} onClick={()=> handleSelectedSign(sign)}>{sign}<br/></NavLink>      
             ))}
             </nav>
            
