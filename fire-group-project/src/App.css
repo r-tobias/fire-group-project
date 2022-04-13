@@ -1,20 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=My+Soul&family=Open+Sans:ital,wght@0,300;0,600;0,800;1,300&display=swap');
 .navbar {
     background-color: #333;
-    overflow: hidden;
+    background: url('https://thumbs.gfycat.com/EmotionalRadiantBovine-max-1mb.gif');
+    /* background: url("https://i.pinimg.com/originals/ea/c7/01/eac701da5ca08ca9b66fa5a27c16dd65.gif"); */
+    /* background-image: url('https://cutewallpaper.org/21/star-background-gif/Animated-Star-Background-Stock-by-FirstDarkAngel2001-on-.gif'); */
+    /* background-image: url('https://cutewallpaper.org/21/star-background-gif/Animated-Shooting-Stars-LoveToKnow.gif'); */
+    /* overflow: hidden; */
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    height: 70px;
   }
+  .navbar h1 {
+    margin-left: 15px;
+    margin-right: 55%;
   
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'My Soul', cursive;
+    font-size: 50px;
+  }
   .navbar a {
-    float: center;
+    /* float: center; */
+    position: relative;
+    top: 35px;
     color: #f2f2f2;
+    
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 30px;
+    
   }
   
   
   .navbar a.active {
-    background-color: rgb(18, 0, 123);
+    /* background-color: #385ea5; */
+    /* border: 2px solid gold; */
     color: white;
   }
-  
+  .navbar a:hover {
+    background-color: transparent;
+    border-bottom: 2px dashed white;
+    color: white;
+
+  }
+
+  body {
+    /* background: url("https://i.pinimg.com/originals/ea/c7/01/eac701da5ca08ca9b66fa5a27c16dd65.gif"); */
+    /* background-image: url("https://phantom-marca.unidadeditorial.es/ad89983918ba343eb8e8dbcde992d63f/crop/0x0/1320x743/resize/1320/f/jpg/assets/multimedia/imagenes/2022/04/08/16494046048732.jpg"); */
+    /* background-image: url('https://cutewallpaper.org/21/star-background-gif/Animated-Star-Background-Stock-by-FirstDarkAngel2001-on-.gif'); */
+    /* background-image: url('https://images.squarespace-cdn.com/content/v1/55aa0163e4b0f765fc46dcd4/1587886681294-BESRVR6OWEOATSLQWNTD/IMG_5054.gif'); */
+    /* background-image: url('https://i.gifer.com/L1dC.gif'); */
+    /* background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ec492ca8-b18c-4bb2-9395-851c59d18001/d3g6db2-43dad5a1-c86c-43a4-acb0-b2d7e64d4bc4.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VjNDkyY2E4LWIxOGMtNGJiMi05Mzk1LTg1MWM1OWQxODAwMVwvZDNnNmRiMi00M2RhZDVhMS1jODZjLTQzYTQtYWNiMC1iMmQ3ZTY0ZDRiYzQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Ig-9ry60eZ4mataTDLdk4p1Wp_y0wqkkeO3LvzOwzQg'); */
+    /* background-image: url('https://cutewallpaper.org/21/star-background-gif/Fave-GIF-Find-Share-on-GIPHY.gif'); */
+    background-image: url('https://www.stockvault.net/data/2020/09/24/279149/preview16.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  .zodiac-container {
+    display: grid;
+    flex-direction: column;
+    justify-items: center; 
+    /* border: 2px solid black; */
+    text-align: center;
+    justify-content: center;
+    /* width: 80%; */
+  }
+/* 
+  html {
+    background-color: blue;
+    background: url('https://thumbs.gfycat.com/EmotionalRadiantBovine-max-1mb.gif');
+    background-repeat: no-repeat;
+    height: 100vh
+
+  } */
+  /* body { */
+    /* background-color: red; */
+    /* width: 100%; */
+    /* position: relative; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+  /* } */
+  /* .App {
+    background-color: pink; */
+    /* width: 90%; */
+    /* justify-content: center; */
+    /* justify-self: center; */
+  /* } */
+
+
+/* html, body, div {
+  height: 100vh;
+} */
+
+/* .sign {
+  padding: 20px;
+  margin: 5px;
+} */
+
+button {
+  background-color: rgb(55, 55, 95);
+  padding: 20px;
+  margin: 5px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(53, 53, 124);
+  box-shadow: 5px 7px black;
+}
+p {
+  font-size: 20px;
+}

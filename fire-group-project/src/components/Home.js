@@ -1,8 +1,8 @@
 
-import { NavLink } from 'react-router-dom'
-import fetchData from '../services/constants'
-import { useState, useEffect} from 'react'
-import Button from './Button'
+// import { NavLink } from 'react-router-dom'
+// import fetchData from '../services/constants'
+// import { useState, useEffect} from 'react'
+// import Button from './Button'
 
 
 function Home () {
@@ -10,8 +10,8 @@ function Home () {
 
 
     return(
-        <div className='home'>
-            <h1>Welcome to Astrology Hub!</h1>
+        <div>
+            <h1>Welcome to Astrology Hub!</h1>    
     
         </div>
     )
