@@ -10,7 +10,7 @@ function Home () {
 
 
     return(
-        <div>
+        <div className='home'>
             <h1>Welcome to Astrology Hub!</h1>
     
         </div>
