@@ -1,9 +1,9 @@
-.buttons {
+.navBar {
     background-color: #333;
     overflow: hidden;
   }
   
-  .buttons a {
+  .navBar a {
     float: center;
     color: #f2f2f2;
     text-align: center;
@@ -13,7 +13,7 @@
   }
   
   
-  .buttons a.active {
+  .navBar a.active {
     background-color: rgb(18, 0, 123);
     color: white;
   }

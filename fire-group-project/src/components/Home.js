@@ -12,6 +12,7 @@ function Home () {
     return(
         <div>
             <h1>Welcome to Astrology Hub!</h1>
+            <p></p>
     
         </div>
     )
