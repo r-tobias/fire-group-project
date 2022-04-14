@@ -13,8 +13,8 @@
   }
   .navbar h1 {
     margin-left: 15px;
-    margin-right: 50%;
-  
+    margin-right: 40%;
+    margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'My Soul', cursive;
     font-size: 50px;
@@ -28,6 +28,7 @@
     padding: 14px;
     text-decoration: none;
     font-size: 30px;  
+    
   }
   
   
@@ -41,6 +42,7 @@
     background: black;
     color: white;
   }
+
   
   .navbar a:hover {
     background-color: transparent;
@@ -108,6 +110,21 @@ button:hover {
 p {
   font-size: 20px;
 }
+
+.toggleDarkModeButton {
+  position: sticky;
+  right: 10px;
+  top: 30px;
+  width: 40px;
+  padding: 0;
+  height: 40px;
+  border: none;
+  background-image: url('https://ps.w.org/dark-mode-for-wp-dashboard/assets/icon-256x256.png?rev=2404672');
+  background-size: cover;
+}
+
+
+
 
 button.aries{
   background-image: url('./images/Aries.png');
