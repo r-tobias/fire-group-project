@@ -33,27 +33,14 @@ function App() {
   }, [darkMode]);
 
   return (
-    <div className="container">
-      {/* <header> */}
-      {/* <h1 className='logo'>Horoscopia</h1>
-      <nav className="navbar">
-          <ul>
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/zodiac">Zodiac</NavLink></li>
-            <li> <NavLink to="/about">About Us</NavLink></li>
-          </ul>
-      </nav> */}
-
-      {/* </header> */}
+    <div className="App">
       
-      <h1 className='logo'>Horoscopia</h1>
-        <nav className="navbar">
-          <ul>
-            <li><NavLink to="/"> Home </NavLink></li>
-            <li><NavLink to="/zodiac"> Zodiac </NavLink></li>
-            <li><NavLink to="/about"> About Us </NavLink></li>
-            <li><button onClick={() => setDarkMode(!darkMode)}>Toggle Dark Mode</button></li>     
-          </ul>
+      <nav className="navbar">
+          <h1>Horoscopia</h1>
+          <NavLink to="/"> Home </NavLink>
+          <NavLink to="/zodiac"> Zodiac </NavLink>
+          <NavLink to="/about"> About Us </NavLink>
+          <button onClick={() => setDarkMode(!darkMode)}>Toggle Dark Mode</button> 
       </nav>    
 
       <Routes>
@@ -61,7 +48,9 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/zodiac" element={<Zodiac />} />
         <Route path="/time" element={<TimeFrame />} />
+
       </Routes>
+
     </div>
   );
 }
