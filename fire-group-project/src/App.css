@@ -2,7 +2,6 @@
 .navbar {
     background-color: #333;
     background: url('https://thumbs.gfycat.com/EmotionalRadiantBovine-max-1mb.gif');
-    padding: 5px;
     width: 100%;
     display: flex;
     height: 100px;
@@ -11,7 +10,6 @@
   .navbar h1 {
     margin-top: 20px;
     margin-left: 15px;
-    margin-right: 40%;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-family: 'My Soul', cursive;
@@ -20,6 +18,8 @@
 
   .navbar a {
     position: relative;
+    top: 10px;
+    left: 700px;
     color: #f2f2f2;
     text-align: center;
     padding: 14px;
@@ -143,9 +143,10 @@ p {
 }
 
 .toggleDarkModeButton {
-  position: sticky;
-  right: 10px;
-  top: 30px;
+  position: relative;
+  right: 540px;
+  /* left: 50px; */
+  top: 10px;
   width: 40px;
   padding: 0;
   height: 40px;
@@ -155,14 +156,15 @@ p {
 }
 
 .dark .toggleDarkModeButton {
-  position: sticky;
-  right: 10px;
-  top: 30px;
+  position: relative;
+  right: 540px;
+  top: 10px;
   width: 40px;
   padding: 0;
   height: 40px;
   border: none;
-  background-image: url('https://ps.w.org/dark-mode-for-wp-dashboard/assets/icon-256x256.png?rev=2404672');
+  background-image: url('images/sun.JPG');
+  border-radius: 50%;
   background-size: cover;
 }
 
