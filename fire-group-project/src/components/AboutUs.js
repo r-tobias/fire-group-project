@@ -4,7 +4,7 @@ function AboutUs(){
     return(
         <div className="aboutUs">
             <div className="imageDiv">
-            <img className="image" src="https://thehowler.org/wp-content/uploads/2019/11/horoscope-graphic-900x607.png" alt="horoscope"/>
+            <img className="image" src="./image/Calender.png" alt="horoscope"/>
             </div>
             <div className="textDiv">
             <h1>Horoscopia: noun</h1>
