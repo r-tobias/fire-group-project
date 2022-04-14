@@ -13,7 +13,7 @@
   }
   .navbar h1 {
     margin-left: 15px;
-    margin-right: 50%;
+    margin-right: 40%;
   
     font-family: 'Montserrat', sans-serif;
     font-family: 'My Soul', cursive;
@@ -43,6 +43,7 @@
     background: black;
     color: white;
   }
+
   
   .navbar a:hover {
     background-color: transparent;
@@ -108,4 +109,14 @@ button:hover {
 }
 p {
   font-size: 20px;
+}
+
+.toggleDarkModeButton {
+  position: absolute;
+  /* right: 20px; */
+  width: 40px;
+  padding: 0;
+  height: 40px;
+  background-image: url('https://thumbs.dreamstime.com/b/dark-mode-switch-vector-illustration-night-mode-slider-design-dark-mode-switch-vector-illustration-night-mode-slider-design-icon-183066728.jpg');
+  background-position: 50px;
 }

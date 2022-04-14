@@ -41,7 +41,7 @@ function App() {
           <NavLink to="/zodiac"> Zodiac </NavLink>
           <NavLink to="/about"> About Us </NavLink>
           <NavLink to="/history"> History </NavLink>
-          <button onClick={() => setDarkMode(!darkMode)}>Toggle Dark Mode</button> 
+          <button className = 'toggleDarkModeButton' onClick={() => setDarkMode(!darkMode)}>Moon</button> 
       </nav>    
 
       <Routes>
