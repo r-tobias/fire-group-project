@@ -70,8 +70,9 @@
   }
 
   body {
-    background-image: url('https://www.stockvault.net/data/2020/09/24/279149/preview16.jpg');
-    background-image: url('https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    /* background-image: url('https://www.stockvault.net/data/2020/09/24/279149/preview16.jpg'); */
+    /* background-image: url('https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); */
+    background-image: url('https://www.publicdomainpictures.net/pictures/130000/nahled/purple-top-gradient-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
@@ -95,24 +96,65 @@
 
 button {
   background-color: transparent;
-  padding: 20px;
-  margin: 5px;
-  font-size: 20px;
+  margin: 27px;
+  padding: 50px;
+  font-size: 40px;
   color: black;
+  text-shadow: 1px 1px black;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'My Soul', cursive;
+  line-height: 3.3;
+}
+
+.dark button {
+  background-color: transparent;
+  margin: 27px;
+  padding: 50px;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
   cursor: pointer;
   font-family: 'Montserrat', sans-serif;
   font-family: 'My Soul', cursive;
 }
+
 button:hover {
-  background-color: rgb(45, 45, 116); 
+  /* background-color: rgb(45, 45, 116);  */
+  background-color: #3E0C53;
   box-shadow: 5px 7px black;
   border-radius: 40%; 
+  color:black;
+  font-size: 50px;
+  text-shadow: 1px 1px white;
+}
+.dark button:hover {
+  background-color: #8b87e4; 
+  box-shadow: 5px 7px black;
+  border-radius: 40%; 
+  color: white;
+  font-size: 50px;
+  text-shadow: 1px 1px black;
+  /* color: black; */
 }
 p {
   font-size: 20px;
 }
 
 .toggleDarkModeButton {
+  position: sticky;
+  right: 10px;
+  top: 30px;
+  width: 40px;
+  padding: 0;
+  height: 40px;
+  border: none;
+  background-image: url('https://ps.w.org/dark-mode-for-wp-dashboard/assets/icon-256x256.png?rev=2404672');
+  background-size: cover;
+}
+
+.dark .toggleDarkModeButton {
   position: sticky;
   right: 10px;
   top: 30px;
