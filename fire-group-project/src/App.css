@@ -12,9 +12,10 @@
     height: 100px;
   }
   .navbar h1 {
-    margin-left: 15px;
-    margin-right: 40%;
     margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 50%;
+    color: white;
     font-family: 'Montserrat', sans-serif;
     font-family: 'My Soul', cursive;
     font-size: 50px;
@@ -39,16 +40,20 @@
   }
 
   .dark {
-    background: black;
+    background-image: url('https://www.stockvault.net/data/2020/09/24/279149/preview16.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
   }
 
-  
-  .navbar a:hover {
+  .dark button{
+    color: white;
+  }
+
+  navbar a:hover {
     background-color: transparent;
     /* border-bottom: 2px dashed white; */
     color: white;
-
   }
 
   nav a::after {
@@ -70,12 +75,10 @@
     /* background-image: url('https://cutewallpaper.org/21/star-background-gif/Animated-Star-Background-Stock-by-FirstDarkAngel2001-on-.gif'); */
     /* background-image: url('https://images.squarespace-cdn.com/content/v1/55aa0163e4b0f765fc46dcd4/1587886681294-BESRVR6OWEOATSLQWNTD/IMG_5054.gif'); */
     /* background-image: url('https://i.gifer.com/L1dC.gif'); */
-    /* background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ec492ca8-b18c-4bb2-9395-851c59d18001/d3g6db2-43dad5a1-c86c-43a4-acb0-b2d7e64d4bc4.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VjNDkyY2E4LWIxOGMtNGJiMi05Mzk1LTg1MWM1OWQxODAwMVwvZDNnNmRiMi00M2RhZDVhMS1jODZjLTQzYTQtYWNiMC1iMmQ3ZTY0ZDRiYzQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Ig-9ry60eZ4mataTDLdk4p1Wp_y0wqkkeO3LvzOwzQg'); */
-    /* background-image: url('https://cutewallpaper.org/21/star-background-gif/Fave-GIF-Find-Share-on-GIPHY.gif'); */
-    background-image: url('https://www.stockvault.net/data/2020/09/24/279149/preview16.jpg');
+    background-image: url('https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: black;
   }
 
   .zodiac-container {
@@ -100,7 +103,7 @@ button {
   padding: 20px;
   margin: 5px;
   font-size: 20px;
-  color: white;
+  color: black;
   cursor: pointer;
 }
 button:hover {
@@ -139,13 +142,106 @@ button.cancer{
   width: 100px;
   border: none;
 }
-button.cancer{
-  background-image: url('./images/Cancer.png');
+
+button.taurus{
+  background-image: url('./images/Taurus.png');
   height: 119px;
   width: 100px;
   border: none;
 }
 
+button.gemini{
+  background-image: url('./images/Gemini.png');
+  height: 119px;
+  width: 100px;
+  border: none;
+}
+
+button.leo{
+  background-image: url('./images/Leo.png');
+  height: 119px;
+  width: 100px;
+  border: none;
+}
+
+button.virgo{
+  background-image: url('./images/Virgo.png');
+  height: 119px;
+  width: 100px;
+  border: none;
+}
+
+button.libra{
+  background-image: url('./images/Libra.png');
+  height: 119px;
+  width: 100px;
+  border: none;
+}
+
+button.scorpio{
+  background-image: url('./images/Scorpio.png');
+  height: 119px;
+  width: 100px;
+  border: none;
+}
+
+button.sagittarius{
+  background-image: url('./images/Sagittarius.png');
+  height: 119px;
+  width: 100px;
+  border: none;
+}
+
+button.capricorn{
+  background-image: url('./images/Capricorn.png');
+  height: 119px;
+  width: 100px;
+  border: none;
+}
+
+button.aquarius{
+  background-image: url('./images/Aquarius.png');
+  height: 119px;
+  width: 100px;
+  border: none;
+}
+
+button.pisces{
+  background-image: url('./images/Pisces.png');
+  height: 119px;
+  width: 100px;
+  border: none;
+}
+
+button.yesterday{
+  background-image: url('./images/glass-ball.jpg');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  border: none;
+  text-align: center;
+  padding: 0;
+}
+
+button.today{
+  background-image: url('./images/glass-ball.jpg');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  border: none;
+  text-align: center;
+  padding: 0;
+}
+
+button.tomorrow{
+  background-image: url('./images/glass-ball.jpg');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  border: none;
+  text-align: center;
+  padding: 0;
+}
 .history{
   display: flex;
   /* padding: 10px; */
