@@ -169,30 +169,37 @@ button.cancer{
     color: black;
     align-self: center;
     height: 100px;
+    width: 100vw;
+    margin: 0px;
     /* margin: auto; */
     
   }
-  .thisIsUs .dark{
+  /* .thisIsUs .dark{
     background-color: black;
     color: white;
     align-self: center;
     height: 100px;
-    /* margin: auto; */
     
-  }
+    /* margin: auto; */
+  
 
   .avatar{
     border-bottom: solid white;
     border-width: 5px;
     
   }
-  .avatar .dark{
+  /* .avatar .dark{
     border-bottom: solid black;
     border-width: 5px;
     
-  }
+  } */
 
   .ourSite{
     width: 1000px;
     margin: auto;
+  }
+
+
+  .homePage{
+    text-align: center;
   }

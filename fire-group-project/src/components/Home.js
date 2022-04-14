@@ -7,10 +7,13 @@ import { NavLink } from 'react-router-dom'
 
 function Home () {
     return(
-        <div>
+        <div className="homePage">
+            <img src= "https://pngset.com/images/purple-moon-freetoedit-purple-moon-no-background-outer-space-night-astronomy-outdoors-transparent-png-2770410.png" alt="crystal ball gif"/>
+
             <h1>Welcome to Horoscopia!</h1>
             <p>
-                In Horoscopia, you can get customized reading for yesterday, today, and tomorrow with a few simple clicks. <NavLink to="/zodiac">Click Here </NavLink> to find out what's in store for you today.
+             In Horoscopia, you can get customized reading for yesterday, today, and tomorrow with a few simple clicks. <NavLink to="/zodiac">
+            Click Here</NavLink> to find out what's in store for you today.
             </p>
             
         </div>
