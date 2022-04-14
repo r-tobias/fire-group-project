@@ -38,6 +38,12 @@
     /* border: 2px solid gold; */
     color: white;
   }
+
+  .dark {
+    background: black;
+    color: white;
+  }
+  
   .navbar a:hover {
     background-color: transparent;
     border-bottom: 2px dashed white;
