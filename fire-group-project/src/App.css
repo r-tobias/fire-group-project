@@ -17,4 +17,9 @@
     background-color: rgb(18, 0, 123);
     color: white;
   }
+
+  .dark {
+    background: black;
+    color: white;
+  }
   
