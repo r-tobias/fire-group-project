@@ -261,12 +261,13 @@ button.tomorrow{
   }
 
   .thisIsUs{
-    background-color: white;
-    color: black;
+    /* background-color: white; */
+    color: white;
     align-self: center;
     height: 100px;
     width: 100vw;
     margin: 0px;
+    
     /* margin: auto; */
     
   }
@@ -291,11 +292,21 @@ button.tomorrow{
   } */
 
   .ourSite{
-    width: 1000px;
+    width: 1200px;
     margin: auto;
   }
 
 
   .homePage{
     text-align: center;
+  }
+
+
+  .clickHere{
+    text-decoration: none;
+    color: black;
+  }
+
+  .clickHere:hover{
+    color: white;
   }

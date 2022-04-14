@@ -1,11 +1,11 @@
-import logo from "../images/Calendar.png"
+import Calendar from "../images/Calendar.png"
 
 function History(){
 
     return(
         <div className="history">
             <div className="imageDiv">
-            <img className="image" src={logo} alt="horoscope"/>
+            <img className="image" src={Calendar} alt="horoscope"/>
             </div>
             <div className="textDiv">
             <h1>Horoscopia: noun</h1>
