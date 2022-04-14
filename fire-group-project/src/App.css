@@ -88,17 +88,17 @@ nav a:hover {
   color: rgb(151, 80, 165);
 }
 
-nav a::before {
+nav a::after {
   content: '';
   display: block;
   height: 7px;
   background-color: rgb(187, 187, 187);
   bottom: 1;
   width: 0%;
-  transition: all ease-in-out 200ms;
+  transition: all ease-in-out 250ms;
 
 }
 
-nav a:hover::before {
+nav a:hover::after {
   width: 100%;
 }
