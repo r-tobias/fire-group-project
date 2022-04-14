@@ -116,3 +116,60 @@ button.cancer{
   width: 100px;
   border: none;
 }
+button.cancer{
+  background-image: url('./images/Cancer.png');
+  height: 119px;
+  width: 100px;
+  border: none;
+}
+
+.history{
+  display: flex;
+  /* padding: 10px; */
+  margin: 50px;
+}
+
+.textDiv{
+  margin:100px;
+  align-self: center;
+
+}
+
+.aboutUs{
+  text-align: center;
+  margin: 20px;
+  
+  }
+
+  .thisIsUs{
+    background-color: white;
+    color: black;
+    align-self: center;
+    height: 100px;
+    /* margin: auto; */
+    
+  }
+  .thisIsUs .dark{
+    background-color: black;
+    color: white;
+    align-self: center;
+    height: 100px;
+    /* margin: auto; */
+    
+  }
+
+  .avatar{
+    border-bottom: solid white;
+    border-width: 5px;
+    
+  }
+  .avatar .dark{
+    border-bottom: solid black;
+    border-width: 5px;
+    
+  }
+
+  .ourSite{
+    width: 1000px;
+    margin: auto;
+  }
