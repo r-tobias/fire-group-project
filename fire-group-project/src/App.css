@@ -122,3 +122,19 @@ button.cancer{
   width: 100px;
   border: none;
 }
+button.cancer{
+  background-image: url('./images/Cancer.png');
+  height: 119px;
+  width: 100px;
+  border: none;
+}
+
+.history{
+  display: flex;
+  /* padding: 10px; */
+  margin: 50px;
+}
+
+.textDiv{
+  margin:50px;
+}
