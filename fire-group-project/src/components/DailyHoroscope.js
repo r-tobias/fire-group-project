@@ -26,6 +26,7 @@ useEffect(  ()=>{
             {horoscope ? <p>Date Range: {horoscope.date_range}</p> :<p></p>}
             {horoscope ? <p>Reading: {horoscope.description}</p> :<p></p>}
         <div>
+            
             {/* <h1> Daily Horoscope</h1> */}
 
         {/* <header>
