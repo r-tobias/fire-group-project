@@ -33,7 +33,7 @@ Our Horoscope Website is designed to tell you your daily horoscope needs. Missed
 ![image](https://user-images.githubusercontent.com/97997227/163455679-4e212b17-0fe4-44dd-9542-a153d51362b9.png)
 ### Aztro
 
-aztro REST API allows developers to access and integrate the functionality of aztro with other applications. The API retrieves daily horoscopes for yesterday, today, and tomorrow.
+Aztro REST API allows developers to access and integrate the functionality of aztro with other applications. The API retrieves daily horoscopes for yesterday, today, and tomorrow.
 - https://aztro.readthedocs.io/en/latest/
 
 - http://sandipbgt.com/theastrologer/api/sunsigns/
