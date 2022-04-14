@@ -155,9 +155,22 @@ button.cancer{
     /* margin: auto; */
     
   }
+  .thisIsUs .dark{
+    background-color: black;
+    color: white;
+    align-self: center;
+    height: 100px;
+    /* margin: auto; */
+    
+  }
 
   .avatar{
     border-bottom: solid white;
+    border-width: 5px;
+    
+  }
+  .avatar .dark{
+    border-bottom: solid black;
     border-width: 5px;
     
   }
