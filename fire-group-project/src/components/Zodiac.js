@@ -16,8 +16,8 @@ function Zodiac(){
         <div className='zodiac-container'>
             <h1>Zodiac</h1>
             <p>Sign Selected: {selectedSign}</p>
-            {selectedSign ?<p>Day Selected: {timeframe}</p> :<p></p>}
             <Button handleSelectedSign={setSelectedSign}/>
+            {selectedSign ?<p>Day Selected: {timeframe}</p> :<p></p>}
             {selectedSign ? <TimeFrame time={setTimeFrame}/>:<p></p>}
             <DailyHoroscope sign={selectedSign}timeframe={timeframe} />
         </div>
