@@ -1,7 +1,7 @@
 
 // import fetchData from '../services/constants'
 import { useState} from 'react'
-import Button from './Button'
+import Button from './Sign'
 import TimeFrame from './TimeFrame'
 import DailyHoroscope from './DailyHoroscope'
 
