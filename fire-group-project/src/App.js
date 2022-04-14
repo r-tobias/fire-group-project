@@ -37,17 +37,18 @@ function App() {
       
       <nav className="navbar">
           <h1>Horoscopia</h1>
+          
           <NavLink to="/"> Home </NavLink>
           <NavLink to="/zodiac"> Zodiac </NavLink>
           <NavLink to="/about"> About Us </NavLink>
-          <button onClick={() => setDarkMode(!darkMode)}>Toggle Dark Mode</button> 
+          <button onClick={() => setDarkMode(!darkMode)}> Dark Mode </button> 
       </nav>    
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/zodiac" element={<Zodiac />} />
-        <Route path="/time" element={<TimeFrame />} />
+        <Route path="/" element={< Home />} />
+        <Route path="/about" element={< AboutUs />} />
+        <Route path="/zodiac" element={< Zodiac />} />
+        <Route path="/time" element={< TimeFrame />} />
 
       </Routes>
 
