@@ -35,12 +35,13 @@ function App() {
   return (
     <div className="App">
       
-      <nav className="buttons">
+      <nav className="navbar">
+          <h1>Horoscopia</h1>
           <NavLink to="/"> Home </NavLink>
           <NavLink to="/zodiac"> Zodiac </NavLink>
           <NavLink to="/about"> About Us </NavLink>
-          <button onClick={() => setDarkMode(!darkMode)}>Toggle Dark Mode</button>     
-      </nav>
+          <button onClick={() => setDarkMode(!darkMode)}>Toggle Dark Mode</button> 
+      </nav>    
 
       <Routes>
         <Route path="/" element={<Home />} />
