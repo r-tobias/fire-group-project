@@ -3,7 +3,7 @@ function TimeFrame({time}){
     
     return(
         <div>
-             <p>Select a time frame</p><br/>
+             <h1>Choose a Time Frame</h1><br/>
             {['yesterday','today', 'tomorrow'].map((timeframes) =>(
                 <button className={timeframes} key={timeframes} onClick={()=> time(timeframes)}>{timeframes}</button>      
             ))}
