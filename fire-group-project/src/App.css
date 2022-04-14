@@ -1,20 +1,149 @@
-.navBar {
-    background-color: #333;
-    overflow: hidden;
+/* .navbar {
+  background-color: #333;
+  background: rgb(10,10,10);
+  background: linear-gradient(180deg, rgba(10,10,10,1) 0%, rgba(255,254,254,0) 100%);
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  height: 70px;
+}
+
+  .navbar h1 {
+    margin-left: 15px;
+    margin-right: 55%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'My Soul', cursive;
+    font-size: 50px;
   }
+
+
+.navbar a {
+
+  position: relative;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 10px;
+    
+}
   
-  .navBar a {
-    float: center;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 30px;
-  }
   
-  
-  .navBar a.active {
-    background-color: rgb(18, 0, 123);
+.navbar a.active {
     color: white;
-  }
-  
+
+}
+
+.navbar a:hover {
+  background-color: transparent;
+  border-bottom: 2px dashed white;
+  color: white;
+} */
+
+
+body {
+    background-color: rgb(1, 3, 65);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+.zodiac-container {
+    display: grid;
+    flex-direction: column;
+    justify-items: center; 
+
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+
+button {
+  background-color: rgb(55, 55, 95);
+  padding: 20px;
+  margin: 5px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: rgb(53, 53, 124);
+  box-shadow: 5px 7px rgb(0, 0, 0);
+}
+
+
+p {
+  font-size: 20px;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+header {
+  background: rgb(10,10,10);
+  background: linear-gradient(180deg, rgba(10,10,10,1) 3%, rgba(255,254,254,0) 100%);
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px ;
+  font-family: Goudy Old Style;
+
+}
+
+nav {
+  float: right;
+  height: 100px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+  position: relative;
+}
+
+nav a {
+  color: rgb(246, 246, 246);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 15px;
+}
+
+nav a:hover {
+  color: rgb(155, 111, 164);
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 7px;
+  background-color: rgb(187, 187, 187);
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 200ms;
+
+}
+
+nav a:hover::before {
+  width: 100%;
+}

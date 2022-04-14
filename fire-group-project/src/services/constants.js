@@ -1,5 +1,8 @@
 import axios from 'axios'
 
+export const getSigns = async () => {
+    return await axios.get("http://sandipbgt.com/theastrologer/api/sunsigns/").then((response) => response.data)
+  }
 
 
 async function fetchData(sign, timeframe){
@@ -7,7 +10,7 @@ async function fetchData(sign, timeframe){
 
     const BASE_URL= `https://aztro.sameerkumar.website?sign=`
 
-    // const signs = ['aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces']
+  
 
     try{
         const response = await axios.post(DEFAULT_URL)

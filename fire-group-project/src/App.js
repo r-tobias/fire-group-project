@@ -11,15 +11,18 @@ import TimeFrame from './components/TimeFrame';
 
 function App() {
   return (
-    <div className="App">
-
-      <nav className="navBar">
-        
-          <NavLink to="/about">About us </NavLink>     
-          <NavLink to="/zodiac">Zodiac</NavLink>
-          <NavLink to="/">Home</NavLink>
-
+    <div className="container">
+      <header>
+      <h1 className='logo'>Horoscopia</h1>
+      <nav className="navbar">
+          <ul>
+            <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink to="/zodiac">Zodiac</NavLink></li>
+            <li> <NavLink to="/about">About Us</NavLink></li>
+          </ul>
       </nav>
+
+      </header>
 
 
       <Routes>
@@ -27,9 +30,7 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/zodiac" element={<Zodiac />} />
         <Route path="/time" element={<TimeFrame />} />
-
       </Routes>
-
     </div>
   );
 }

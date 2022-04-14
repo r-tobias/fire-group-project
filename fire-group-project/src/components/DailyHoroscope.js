@@ -17,7 +17,7 @@ useEffect(  ()=>{
    } 
    reading()
 
-},[sign, timeframe])
+},[sign, timeframe, horoscope])
     
 
     return(
@@ -26,9 +26,9 @@ useEffect(  ()=>{
             {horoscope ? <p>Date Range: {horoscope.date_range}</p> :<p></p>}
             {horoscope ? <p>Reading: {horoscope.description}</p> :<p></p>}
         <div>
-            <h1> Daily Horoscope</h1>
+            {/* <h1> Daily Horoscope</h1> */}
 
-        <header>
+        {/* <header>
             <h3>Aries Daily Horoscope</h3>
             <div>
                 <img src="https://www.pagangrimoire.com/wp-content/uploads/2021/04/Aries-Symbol-5.jpg" alt="Aries Logo"/>
@@ -110,9 +110,8 @@ useEffect(  ()=>{
             <div>
                 <img src="https://www.pagangrimoire.com/wp-content/uploads/2020/12/Pisces-Symbol-2.jpg" alt="Pisces Logo"/>
             </div>
-        </header>
+        </header> */}
 
-           
         </div>
         </div>
     )

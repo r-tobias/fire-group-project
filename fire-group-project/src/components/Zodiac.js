@@ -1,6 +1,6 @@
 
-import fetchData from '../services/constants'
-import { useState, useEffect} from 'react'
+// import fetchData from '../services/constants'
+import { useState} from 'react'
 import Button from './Button'
 import TimeFrame from './TimeFrame'
 import DailyHoroscope from './DailyHoroscope'
@@ -12,13 +12,11 @@ function Zodiac(){
     
     const [selectedSign, setSelectedSign] = useState(null)
     const [timeframe, setTimeFrame] = useState(null)
-
     return(
-        <div>
+        <div className='zodiac-container'>
             <h1>Zodiac</h1>
-            Sign Selected: {selectedSign}<br/>
-            Day Selected: {timeframe}
-
+            <p>Sign Selected: {selectedSign}</p>
+            <p>Day Selected: {timeframe}</p>
 
             <Button handleSelectedSign={setSelectedSign}/>
             <TimeFrame time={setTimeFrame}/>
