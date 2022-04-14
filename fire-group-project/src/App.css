@@ -118,9 +118,9 @@ button {
   font-family: 'My Soul', cursive;
 }
 button:hover {
-  /* background-color: rgb(45, 45, 116); */
-  /* box-shadow: 5px 7px black; */
-  /* border-radius: 40%; */
+  background-color: rgb(45, 45, 116); 
+  box-shadow: 5px 7px black;
+  border-radius: 40%; 
 }
 p {
   font-size: 20px;
