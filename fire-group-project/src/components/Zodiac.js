@@ -16,12 +16,10 @@ function Zodiac(){
         <div className='zodiac-container'>
             <h1>Zodiac</h1>
             <p>Sign Selected: {selectedSign}</p>
-            <p>Day Selected: {timeframe}</p>
-
             <Button handleSelectedSign={setSelectedSign}/>
-            <TimeFrame time={setTimeFrame}/>
+            {selectedSign ?<p>Day Selected: {timeframe}</p> :<p></p>}
+            {selectedSign ? <TimeFrame time={setTimeFrame}/>:<p></p>}
             <DailyHoroscope sign={selectedSign}timeframe={timeframe} />
-            
         </div>
     )
 }
