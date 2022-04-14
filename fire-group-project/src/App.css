@@ -1,5 +1,5 @@
 
-  /* .dark {
+  .dark {
     background: black;
     color: white;
   }
@@ -101,4 +101,4 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
-} */
+}
