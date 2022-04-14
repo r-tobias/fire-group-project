@@ -12,7 +12,7 @@
     height: 100px;
   }
   .navbar h1 {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 15px;
     margin-right: 50%;
     color: white;
@@ -29,6 +29,7 @@
     padding: 14px;
     text-decoration: none;
     font-size: 30px;  
+    
   }
   
   
@@ -112,6 +113,21 @@ button:hover {
 p {
   font-size: 20px;
 }
+
+.toggleDarkModeButton {
+  position: sticky;
+  right: 10px;
+  top: 30px;
+  width: 40px;
+  padding: 0;
+  height: 40px;
+  border: none;
+  background-image: url('https://ps.w.org/dark-mode-for-wp-dashboard/assets/icon-256x256.png?rev=2404672');
+  background-size: cover;
+}
+
+
+
 
 button.aries{
   background-image: url('./images/Aries.png');
@@ -226,3 +242,53 @@ button.tomorrow{
   text-align: center;
   padding: 0;
 }
+.history{
+  display: flex;
+  /* padding: 10px; */
+  margin: 50px;
+}
+
+.textDiv{
+  margin:100px;
+  align-self: center;
+
+}
+
+.aboutUs{
+  text-align: center;
+  margin: 20px;
+  
+  }
+
+  .thisIsUs{
+    background-color: white;
+    color: black;
+    align-self: center;
+    height: 100px;
+    /* margin: auto; */
+    
+  }
+  .thisIsUs .dark{
+    background-color: black;
+    color: white;
+    align-self: center;
+    height: 100px;
+    /* margin: auto; */
+    
+  }
+
+  .avatar{
+    border-bottom: solid white;
+    border-width: 5px;
+    
+  }
+  .avatar .dark{
+    border-bottom: solid black;
+    border-width: 5px;
+    
+  }
+
+  .ourSite{
+    width: 1000px;
+    margin: auto;
+  }
