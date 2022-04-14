@@ -1,20 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=My+Soul&family=Open+Sans:ital,wght@0,300;0,600;0,800;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=My+Soul&family=Open+Sans:ital,wght@0,300;0,600;0,800;1,300&family=Plus+Jakarta+Sans:wght@200;500;800&family=Whisper&display=swap');
 .navbar {
     background-color: #333;
     background: url('https://thumbs.gfycat.com/EmotionalRadiantBovine-max-1mb.gif');
-    /* background: url("https://i.pinimg.com/originals/ea/c7/01/eac701da5ca08ca9b66fa5a27c16dd65.gif"); */
-    /* background-image: url('https://cutewallpaper.org/21/star-background-gif/Animated-Star-Background-Stock-by-FirstDarkAngel2001-on-.gif'); */
-    /* background-image: url('https://cutewallpaper.org/21/star-background-gif/Animated-Shooting-Stars-LoveToKnow.gif'); */
-    /* overflow: hidden; */
     padding: 5px;
     width: 100%;
     display: flex;
     height: 100px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
   }
   .navbar h1 {
     margin-top: 20px;
     margin-left: 15px;
-    margin-right: 50%;
+    margin-right: 40%;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-family: 'My Soul', cursive;
@@ -22,7 +19,6 @@
   }
 
   .navbar a {
-    /* float: center; */
     position: relative;
     color: #f2f2f2;
     text-align: center;
@@ -31,11 +27,16 @@
     font-size: 30px;  
     
   }
+
+  h1 {
+    font-family: 'My Soul', cursive;
+  }
+  p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
   
   
   .navbar a.active {
-    /* background-color: #385ea5; */
-    /* border: 2px solid gold; */
     color: white;
   }
 
@@ -52,7 +53,6 @@
 
   navbar a:hover {
     background-color: transparent;
-    /* border-bottom: 2px dashed white; */
     color: white;
   }
 
@@ -70,11 +70,7 @@
   }
 
   body {
-    /* background: url("https://i.pinimg.com/originals/ea/c7/01/eac701da5ca08ca9b66fa5a27c16dd65.gif"); */
-    /* background-image: url("https://phantom-marca.unidadeditorial.es/ad89983918ba343eb8e8dbcde992d63f/crop/0x0/1320x743/resize/1320/f/jpg/assets/multimedia/imagenes/2022/04/08/16494046048732.jpg"); */
-    /* background-image: url('https://cutewallpaper.org/21/star-background-gif/Animated-Star-Background-Stock-by-FirstDarkAngel2001-on-.gif'); */
-    /* background-image: url('https://images.squarespace-cdn.com/content/v1/55aa0163e4b0f765fc46dcd4/1587886681294-BESRVR6OWEOATSLQWNTD/IMG_5054.gif'); */
-    /* background-image: url('https://i.gifer.com/L1dC.gif'); */
+    background-image: url('https://www.stockvault.net/data/2020/09/24/279149/preview16.jpg');
     background-image: url('https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,18 +81,17 @@
     display: grid;
     flex-direction: column;
     justify-items: center; 
-    /* border: 2px solid black; */
     text-align: center;
     justify-content: center;
-    /* width: 80%; */
   }
-/* 
-  html {
-    background-color: blue;
-    background: url('https://thumbs.gfycat.com/EmotionalRadiantBovine-max-1mb.gif');
-    background-repeat: no-repeat;
-    height: 100vh
-  } */
+
+
+  .sign-container {
+    display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: minmax(60px, auto);
+
+  }
 
 button {
   background-color: transparent;
@@ -105,10 +100,13 @@ button {
   font-size: 20px;
   color: black;
   cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'My Soul', cursive;
 }
 button:hover {
-  background-color: rgb(53, 53, 124);
+  background-color: rgb(45, 45, 116); 
   box-shadow: 5px 7px black;
+  border-radius: 40%; 
 }
 p {
   font-size: 20px;
