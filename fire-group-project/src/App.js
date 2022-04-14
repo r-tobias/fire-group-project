@@ -6,7 +6,7 @@ import Home from './components/Home';
 import AboutUs from './components/AboutUs';
 import Zodiac from './components/Zodiac';
 import TimeFrame from './components/TimeFrame';
-
+import History from './components/History';
 
 function App() {
 
@@ -41,15 +41,16 @@ function App() {
           <NavLink to="/"> Home </NavLink>
           <NavLink to="/zodiac"> Zodiac </NavLink>
           <NavLink to="/about"> About Us </NavLink>
-          <button onClick={() => setDarkMode(!darkMode)}> Dark Mode </button> 
+          <NavLink to="/history"> History </NavLink>
+          <button onClick={() => setDarkMode(!darkMode)}>Toggle Dark Mode</button> 
       </nav>    
 
       <Routes>
-        <Route path="/" element={< Home />} />
-        <Route path="/about" element={< AboutUs />} />
-        <Route path="/zodiac" element={< Zodiac />} />
-        <Route path="/time" element={< TimeFrame />} />
-
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/zodiac" element={<Zodiac />} />
+        <Route path="/time" element={<TimeFrame />} />
+        <Route path="/history" element={<History />} />
       </Routes>
 
     </div>
