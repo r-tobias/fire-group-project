@@ -18,7 +18,7 @@ Our Horoscope Website is designed to tell you your daily horoscope needs. Missed
 
 >#### Upcoming Features
 > - Birthday analyzer
-> - Search for the perfect soulmate
+> - Sign matchmaker
  
 
  
