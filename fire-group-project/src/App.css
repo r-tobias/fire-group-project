@@ -163,7 +163,7 @@ p {
   padding: 0;
   height: 40px;
   border: none;
-  background-image: url('images/sun-emoji.JPG');
+  background-image: url('images/sun.JPG');
   border-radius: 50%;
   background-size: cover;
 }
