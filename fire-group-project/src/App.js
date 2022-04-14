@@ -35,7 +35,6 @@ function App() {
 
   return (
     <div className="App">
-      
       <nav className="navbar">
           <h1>Horoscopia</h1>
           
@@ -54,7 +53,7 @@ function App() {
         <Route path="/time" element={<TimeFrame />} />
         <Route path="/history" element={<History />} />
       </Routes>
-
+      <Footer/>
     </div>
   );
 }

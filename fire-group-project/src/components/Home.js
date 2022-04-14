@@ -16,7 +16,7 @@ function Home () {
              In Horoscopia, you can get customized reading for yesterday, today, and tomorrow with a few simple clicks. </p>
              <p><NavLink to="/zodiac" className="clickHere"><b>Find out</b></NavLink> what's in store for you today.</p>
              <div className="footer">
-            <Footer/>
+            
             </div>
         </div>
         

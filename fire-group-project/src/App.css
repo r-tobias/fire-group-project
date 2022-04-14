@@ -286,9 +286,9 @@ button.tomorrow{
 
 .history{
   display: flex;
-  /* padding: 10px; */
+  
   margin: 100px;
-  /* padding: 10px; */
+  
 
 }
 
@@ -317,26 +317,16 @@ button.tomorrow{
     width: 100vw;
     margin: 0px;
     
-    /* margin: auto; */
-    
   }
-  /* .thisIsUs .toggleDarkModeButton{
-    color: black;
-    align-self: center;
-    height: 100px;
-    width: 100vw;
-  } */
+  
 
   .avatar{
     border-bottom: solid white;
     border-width: 5px;
-    width: 800px;
+    width: 650px;
   }
 
-  /* .avatar .toggleDarkModeButton{
-    border-bottom: solid black;
-    border-width: 5px;
-  } */
+  
 
   .ourSite{
     width: 1300px;
@@ -367,13 +357,22 @@ button.tomorrow{
   .footer {
     bottom: 0%;
     position: fixed;
-    left: 0px;
+    /* left: 0px; */
     width: 100%;
-    background-color: dark
+    height: 50px;
+    background-color: #3E0C53;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white
+    /* opacity: 0.5; */
 }
+  
 
 .zodiacImage{
-  height: 70vh;
+  height: 60vh;
 }
+
+
 
   
