@@ -110,3 +110,14 @@ button:hover {
 p {
   font-size: 20px;
 }
+
+.aboutUs{
+  display: flex;
+  /* padding: 10px; */
+  margin: 50px;
+}
+
+.textDiv{
+  margin:50px;
+}
+
