@@ -2,10 +2,6 @@
 .navbar {
     background-color: #333;
     background: url('https://thumbs.gfycat.com/EmotionalRadiantBovine-max-1mb.gif');
-    /* background: url("https://i.pinimg.com/originals/ea/c7/01/eac701da5ca08ca9b66fa5a27c16dd65.gif"); */
-    /* background-image: url('https://cutewallpaper.org/21/star-background-gif/Animated-Star-Background-Stock-by-FirstDarkAngel2001-on-.gif'); */
-    /* background-image: url('https://cutewallpaper.org/21/star-background-gif/Animated-Shooting-Stars-LoveToKnow.gif'); */
-    /* overflow: hidden; */
     padding: 5px;
     width: 100%;
     display: flex;
@@ -23,7 +19,6 @@
   }
 
   .navbar a {
-    /* float: center; */
     position: relative;
     color: #f2f2f2;
     text-align: center;
@@ -42,8 +37,6 @@
   
   
   .navbar a.active {
-    /* background-color: #385ea5; */
-    /* border: 2px solid gold; */
     color: white;
   }
 
@@ -60,7 +53,6 @@
 
   navbar a:hover {
     background-color: transparent;
-    /* border-bottom: 2px dashed white; */
     color: white;
   }
 
@@ -78,11 +70,7 @@
   }
 
   body {
-    /* background: url("https://i.pinimg.com/originals/ea/c7/01/eac701da5ca08ca9b66fa5a27c16dd65.gif"); */
-    /* background-image: url("https://phantom-marca.unidadeditorial.es/ad89983918ba343eb8e8dbcde992d63f/crop/0x0/1320x743/resize/1320/f/jpg/assets/multimedia/imagenes/2022/04/08/16494046048732.jpg"); */
-    /* background-image: url('https://cutewallpaper.org/21/star-background-gif/Animated-Star-Background-Stock-by-FirstDarkAngel2001-on-.gif'); */
-    /* background-image: url('https://images.squarespace-cdn.com/content/v1/55aa0163e4b0f765fc46dcd4/1587886681294-BESRVR6OWEOATSLQWNTD/IMG_5054.gif'); */
-    /* background-image: url('https://i.gifer.com/L1dC.gif'); */
+    background-image: url('https://www.stockvault.net/data/2020/09/24/279149/preview16.jpg');
     background-image: url('https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,10 +81,8 @@
     display: grid;
     flex-direction: column;
     justify-items: center; 
-    /* border: 2px solid black; */
     text-align: center;
     justify-content: center;
-    /* width: 80%; */
   }
 
 
