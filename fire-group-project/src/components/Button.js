@@ -14,9 +14,6 @@ function Button({handleSelectedSign}){
 
     return(
         <div>
-          
-            
-            
             {signs.map((sign) =>(
                 <button className="sign" to='/time' key={sign} onClick={()=> handleSelectedSign(sign)}>{sign}<br/>
                 </button>      

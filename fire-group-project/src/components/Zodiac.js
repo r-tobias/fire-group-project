@@ -12,13 +12,11 @@ function Zodiac(){
     
     const [selectedSign, setSelectedSign] = useState(null)
     const [timeframe, setTimeFrame] = useState(null)
-
     return(
         <div className='zodiac-container'>
             <h1>Zodiac</h1>
             <p>Sign Selected: {selectedSign}</p>
             <p>Day Selected: {timeframe}</p>
-
 
             <Button handleSelectedSign={setSelectedSign}/>
             <TimeFrame time={setTimeFrame}/>
