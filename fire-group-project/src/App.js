@@ -7,6 +7,7 @@ import AboutUs from './components/AboutUs';
 import Zodiac from './components/Zodiac';
 import TimeFrame from './components/TimeFrame';
 import History from './components/History';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -47,6 +48,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Footer />} /> */}
         <Route path="/about" element={<AboutUs />} />
         <Route path="/zodiac" element={<Zodiac />} />
         <Route path="/time" element={<TimeFrame />} />

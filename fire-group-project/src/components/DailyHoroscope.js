@@ -9,7 +9,7 @@ const [horoscope, setHoroscope] = useState('');
 
 
 
-useEffect(  ()=>{
+useEffect(()=>{
    const reading = async() =>{
     const zodiac = await fetchData(sign, timeframe)
         setHoroscope(zodiac)

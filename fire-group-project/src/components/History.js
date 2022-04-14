@@ -5,7 +5,7 @@ function History(){
     return(
         <div className="history">
             <div className="imageDiv">
-            <img className="image" src={Calendar} alt="horoscope"/>
+            <img className="zodiacImage" src={Calendar} alt="horoscope"/>
             </div>
             <div className="textDiv">
             <h1>Horoscopia: noun</h1>
