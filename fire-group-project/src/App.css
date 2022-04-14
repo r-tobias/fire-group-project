@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=My+Soul&family=Open+Sans:ital,wght@0,300;0,600;0,800;1,300&family=Plus+Jakarta+Sans:wght@200;500;800&family=Whisper&display=swap');
 .navbar {
-    background-color: #333;
+    /* background-color: #333; */
     background: url('https://thumbs.gfycat.com/EmotionalRadiantBovine-max-1mb.gif');
-    width: 100%;
+    /* width: 100%; */
     display: flex;
-    flex-direction: space-between;
+    align-items: stretch;
+    
     height: 100px;
     font-family: 'Plus Jakarta Sans', sans-serif;
   }
@@ -316,7 +317,6 @@ button.tomorrow{
     
     align-self: center;
     height: 100px;
-    width: 100vw;
     margin: 0px;
     
   }
@@ -345,6 +345,11 @@ button.tomorrow{
   .clickHere{
     text-decoration: none;
     color: black;
+  }
+
+  .clickHere .toggleDarkModeButton{
+    text-decoration: none;
+    color: white;
   }
 
   .clickHere:hover{

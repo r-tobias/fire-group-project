@@ -1,4 +1,4 @@
-import Footer from './Footer'
+
 import { NavLink } from 'react-router-dom'
 // import fetchData from '../services/constants'
 // import { useState, useEffect} from 'react'

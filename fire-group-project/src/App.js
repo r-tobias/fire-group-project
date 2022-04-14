@@ -36,8 +36,7 @@ function App() {
   return (
     <div className="App">
       <nav className="navbar">
-          <h1>Horoscopia</h1>
-          
+          <h1>Horoscopia</h1> 
           <NavLink to="/"> Home </NavLink>
           <NavLink to="/zodiac"> Zodiac </NavLink>
           <NavLink to="/about"> About Us </NavLink>
