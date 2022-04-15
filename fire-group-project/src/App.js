@@ -39,8 +39,8 @@ function App() {
           <h1>Horoscopia</h1> 
           <NavLink to="/"> Home </NavLink>
           <NavLink to="/zodiac"> Zodiac </NavLink>
-          <NavLink to="/about"> About Us </NavLink>
           <NavLink to="/history"> History </NavLink>
+          <NavLink to="/about"> About Us </NavLink>
           <button className = 'toggleDarkModeButton' onClick={() => setDarkMode(!darkMode)}></button> 
       </nav>    
 
