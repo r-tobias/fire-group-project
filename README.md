@@ -61,7 +61,10 @@ https://medium.com/level-up-web/100-css-resources-for-web-designers-and-develope
 https://alligator.io/css/css-resources/
 
 ## Contact us
-Anne-https://github.com/omokhele
+
+![anne](https://user-images.githubusercontent.com/97997227/163510788-19cc7a91-3d8c-4335-a07f-6cd89524d2cf.jpg)
+
+https://github.com/omokhele
 
 ![rebecca](https://user-images.githubusercontent.com/97997227/163508765-b5f0cb8f-05e5-43a5-b147-7e8aa51bfc7b.jpg)
 
