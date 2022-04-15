@@ -219,6 +219,13 @@
     font-size: 50px;
     text-shadow: 1px 1px black;
   }
+  .dark .toggleDarkModeButton:hover {
+    box-shadow: 2px 2px gold;
+  }
+  .toggleDarkModeButton:hover {
+    box-shadow: 2px 2px black;
+  }
+  
 /* <------------------ End of CSS for Buttons in Dark Mode ------------------> */
 
 /* <------------------ Start of CSS for Zodiac Sign Buttons ------------------> */
@@ -481,6 +488,9 @@ button.yesterday{
  /* <------------------ End of CSS for About Us Page ------------------> */
 
   .footer {
+    background: url('https://i.pinimg.com/originals/1f/b0/6b/1fb06be35a5689d0459519c91b052524.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
     bottom: 0%;
     position: fixed;
     width: 100%;
@@ -490,4 +500,8 @@ button.yesterday{
     justify-content: center;
     align-items: center;
     color: white
+}
+
+.dark .footer {
+  background: url('https://thumbs.gfycat.com/EmotionalRadiantBovine-max-1mb.gif');
 }
