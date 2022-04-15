@@ -1,33 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=My+Soul&family=Open+Sans:ital,wght@0,300;0,600;0,800;1,300&family=Plus+Jakarta+Sans:wght@200;500;800&family=Whisper&display=swap');
-.navbar {
+
+
+  .navbar {
+    display: flex;
+    align-items: stretch;
+    background: url('https://i.pinimg.com/originals/1f/b0/6b/1fb06be35a5689d0459519c91b052524.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    height: 100px;
+
+  }
+
+  .dark .navbar {
     /* background-color: #333; */
     background: url('https://thumbs.gfycat.com/EmotionalRadiantBovine-max-1mb.gif');
     /* width: 100%; */
-    display: flex;
+    /* display: flex;
     align-items: stretch;
-    
+    color: white;
     height: 100px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif; */
   }
   .navbar h1 {
     margin-top: 20px;
     margin-left: 15px;
-    color: white;
+    color: rgb(17, 17, 17);
     font-family: 'Montserrat', sans-serif;
     font-family: 'My Soul', cursive;
     font-size: 50px;
+  }
+  .dark .navbar h1 {
+    color: white;
   }
 
   .navbar a {
     position: relative;
     top: 10px;
     left: 700px;
-    color: #f2f2f2;
+    color: #0a0a0a;
     text-align: center;
     padding: 14px;
     text-decoration: none;
     font-size: 30px;  
     
+  }
+
+  .dark .navbar a.active {
+    color: white;
+  }
+
+  .dark .navbar a {
+    color: white;
   }
 
   h1 {
@@ -39,7 +64,7 @@
   
   
   .navbar a.active {
-    color: white;
+    color: rgb(19, 18, 18);
   }
 
   .dark {
@@ -62,6 +87,18 @@
     content: '';
     display: block;
     height: 7px;
+    background-color: rgb(71, 71, 71);
+    bottom: 1;
+    width: 0%;
+    transition: all ease-in-out 200ms;
+  }
+  nav a:hover::after {
+    width: 100%;
+  }
+  .dark nav a::after {
+    content: '';
+    display: block;
+    height: 7px;
     background-color: rgb(187, 187, 187);
     bottom: 1;
     width: 0%;
@@ -70,7 +107,6 @@
   nav a:hover::after {
     width: 100%;
   }
-
   body {
     /* background-image: url('https://www.stockvault.net/data/2020/09/24/279149/preview16.jpg'); */
     /* background-image: url('https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); */
