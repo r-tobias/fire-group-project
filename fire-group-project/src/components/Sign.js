@@ -25,4 +25,4 @@ function Sign({handleSelectedSign}){
 
 }
 
-export default Sign
+export default Sign;

@@ -3,9 +3,13 @@
 /* <------------------ Start of CSS for Home Page ------------------> */
   .home{
     display: flex;
-    margin: 100px;
+    margin: 60px;
   }
 
+  .image {
+    position: relative;
+    left: 70px;
+  }
   .homeText{
     text-align: center;
     margin: 100px;
@@ -28,7 +32,6 @@
   .dark .clickHere {
     color: white;
   }
-
   .dark .clickHere:hover {
     color: white;
     font-weight: bold;
@@ -127,6 +130,7 @@
 
   p {
     font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
   }
 /* <------------------ End of CSS for Home Page Nav Bar ------------------> */
 
@@ -304,14 +308,18 @@
 /* <------------------ End of CSS for Zodiac Sign Buttons ------------------> */
 
 /* <------------------ Start of CSS for TimeFrame Buttons ------------------> */
-  button.yesterday{
+
+button.yesterday{
     background-image: url('./images/glass-ball.jpg');
     background-size: cover;
     height: 100px;
     width: 100px;
     border: none;
     text-align: center;
-    padding: 0;
+    padding: 0px;
+    position: relative;
+    right: 25px;
+    line-height: 4;
   }
 
   button.today{
@@ -322,6 +330,18 @@
     border: none;
     text-align: center;
     padding: 0;
+    line-height: 4;
+  }
+  button.today:hover {
+    margin: -6px;
+  }
+  button.yesterday:hover {
+    margin: -6px;
+   
+    
+  }
+  button.tomorrow:hover {
+    margin: -6px;
   }
 
   button.tomorrow{
@@ -332,6 +352,10 @@
     border: none;
     text-align: center;
     padding: 0;
+    line-height: 4;
+    position: relative;
+    left: 25px;
+    
   }
 /* <------------------ End of CSS for TimeFrame Buttons ------------------> */
 
@@ -361,12 +385,24 @@
     justify-items: center;
     justify-content: center;
   }
+  .timeframe-container {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .timeframe-container h1 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
 /* <------------------ End of CSS for Zodiac Page ------------------> */
 
 /* <------------------ Start of CSS for History Page ------------------> */
   .history{
     display: flex;
-    margin: 100px;
+    margin: 30px;
+    margin-top: 0px;
   }
 
   .imageDiv{
@@ -377,12 +413,15 @@
   .zodiacImage{
     height: 65vh;
     position: relative;
+
+    top: 30px;
     left: 90px;
   }  
 
   .textDiv{
-    margin:100px;
-    align-self: center;
+     position: relative;
+     right: 90px;
+     width: 1000px;
   }
   
   .hr{
@@ -395,19 +434,22 @@
 /* <------------------ Start of CSS for About Us Page ------------------> */
   .aboutUs{
     text-align: center;
-    margin: 20px;
+    margin: 10px;
   }  
     
   .thisIsUs{
+
     align-self: center;
-    height: 100px;
+    height: 80px;
     margin: 0px;
   }
   
   .avatar{
+    margin-top: -60px;
     border-bottom: solid white;
     border-width: 5px;
     width: 650px;
+
   }  
   
   .ourSite{
