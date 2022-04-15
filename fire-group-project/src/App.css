@@ -183,6 +183,7 @@
     border: none;
     background-image: url('https://ps.w.org/dark-mode-for-wp-dashboard/assets/icon-256x256.png?rev=2404672');
     background-size: cover;
+    opacity: 0.5;
   }
 
   .dark .toggleDarkModeButton {
@@ -220,10 +221,13 @@
     text-shadow: 1px 1px black;
   }
   .dark .toggleDarkModeButton:hover {
-    box-shadow: 2px 2px gold;
+    box-shadow: 2px 2px #D9B47B;
+    opacity: 1;
+
   }
   .toggleDarkModeButton:hover {
-    box-shadow: 2px 2px black;
+    box-shadow: 2px 2px #D9B47B;
+    opacity: 1;
   }
   
 /* <------------------ End of CSS for Buttons in Dark Mode ------------------> */
