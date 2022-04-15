@@ -14,14 +14,7 @@
   }
 
   .dark .navbar {
-    /* background-color: #333; */
     background: url('https://thumbs.gfycat.com/EmotionalRadiantBovine-max-1mb.gif');
-    /* width: 100%; */
-    /* display: flex;
-    align-items: stretch;
-    color: white;
-    height: 100px;
-    font-family: 'Plus Jakarta Sans', sans-serif; */
   }
 
   .navbar h1 {
@@ -39,7 +32,7 @@
   .navbar a {
     position: relative;
     top: 10px;
-    left: 700px;
+    left: 950px;
     color: #0a0a0a;
     text-align: center;
     padding: 14px;
@@ -48,13 +41,13 @@
     
   }
 
-  .dark .navbar a.active {
+  .dark .navbar a, a.active {
     color: white;
   }
 
-  .dark .navbar a {
+  /* .dark .navbar a {
     color: white;
-  }
+  } */
 
   h1 {
     font-family: 'My Soul', cursive;
@@ -105,7 +98,7 @@
     width: 0%;
     transition: all ease-in-out 200ms;
   }
-  nav a:hover::after {
+  .dark nav a:hover::after {
     width: 100%;
   }
   body {
@@ -165,7 +158,7 @@ button:hover {
 
 
 p {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .toggleDarkModeButton {
@@ -202,10 +195,11 @@ p {
   justify-items: center; 
   text-align: center;
   justify-content: center;
+
 }
 .sign-container {
   /* background-color: powderblue; */
-  /* height: 100vh; */
+  height: 80vh;
   
 }
 .timeframe-container {
@@ -220,6 +214,7 @@ p {
   width: 50%;
 grid-template-columns: repeat(4,1fr);
 grid-auto-rows: minmax(60px, auto);
+
 
 
 }
@@ -326,6 +321,13 @@ button.yesterday{
   padding: 0;
 }
 
+/* button.yesterday:hover {
+  padding: 0;
+  margin: 0; 
+background-color: red; 
+} */
+
+
 button.today{
   background-image: url('./images/glass-ball.jpg');
   background-size: cover;
@@ -417,6 +419,15 @@ button.tomorrow{
     color: white;
   }
 
+  .dark .clickHere {
+    color: white;
+  }
+  .dark .clickHere:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
   .hr{
     width: 1200px;
     padding: 0px;
@@ -438,7 +449,9 @@ button.tomorrow{
   
 
 .zodiacImage{
-  height: 60vh;
+  height: 65vh;
+  position: relative;
+  left: 90px;
 }
 
 

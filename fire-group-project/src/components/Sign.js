@@ -4,7 +4,7 @@ import { useState, useEffect} from 'react'
 import { getSigns } from '../services/constants'
 
 
-function Button({handleSelectedSign}){
+function Sign({handleSelectedSign}){
 
     const [signs, setSigns] = useState([])  
    
@@ -25,4 +25,4 @@ function Button({handleSelectedSign}){
 
 }
 
-export default Button
+export default Sign;
