@@ -206,7 +206,7 @@
     font-size: 40px;
     color: white;
     font-weight: bold;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px black !important;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-family: 'My Soul', cursive;
@@ -346,6 +346,8 @@ button.yesterday{
     position: relative;
     right: 25px;
     line-height: 4;
+    text-shadow: 1px 1px white;
+
   }
 
   button.today{
@@ -357,6 +359,7 @@ button.yesterday{
     text-align: center;
     padding: 0;
     line-height: 4;
+    text-shadow: 1px 1px white;
   }
   button.today:hover {
     margin: -6px;
@@ -381,6 +384,7 @@ button.yesterday{
     line-height: 4;
     position: relative;
     left: 25px;
+    text-shadow: 1px 1px white;
     
   }
 /* <------------------ End of CSS for TimeFrame Buttons ------------------> */
