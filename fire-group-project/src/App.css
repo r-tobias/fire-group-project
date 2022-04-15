@@ -23,6 +23,7 @@
     height: 100px;
     font-family: 'Plus Jakarta Sans', sans-serif; */
   }
+
   .navbar h1 {
     margin-top: 20px;
     margin-left: 15px;
@@ -347,10 +348,7 @@ button.tomorrow{
 
 .history{
   display: flex;
-  
   margin: 100px;
-  
-
 }
 
 .imageDiv{
@@ -395,10 +393,15 @@ button.tomorrow{
   }
 
 
-  .homePage{
-    text-align: center;
+  .home{
+    display: flex;
+    margin: 100px;
   }
 
+  .homeText{
+    text-align: center;
+    margin: 100px;
+  }
 
   .clickHere{
     text-decoration: none;
