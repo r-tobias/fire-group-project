@@ -23,7 +23,10 @@ function Zodiac(){
             <div className='timeframe-result-container'>
             <div className='timeframe-container'>
             {<TimeFrame time={setTimeFrame}/>}
+            <div>Sign Selected: {selectedSign}</div>
+            <div>Day Selected: {timeframe}</div>
             </div>
+            
             <div className='result-container'>
 
             <DailyHoroscope sign={selectedSign}timeframe={timeframe} />

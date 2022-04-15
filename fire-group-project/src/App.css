@@ -153,6 +153,14 @@ button:hover {
   font-size: 50px;
   text-shadow: 1px 1px white;
 }
+button:active{
+  background-color: #3E0C53;
+  box-shadow: 5px 7px black;
+  border-radius: 40%; 
+  color:black;
+  font-size: 50px;
+  text-shadow: 1px 1px white;
+}
 .dark button:hover {
   background-color: #8b87e4; 
   box-shadow: 5px 7px black;
@@ -201,7 +209,7 @@ p {
   text-align: center;
   justify-content: center;
 }
-.sign-container {
+.sign-container :active {
   /* background-color: powderblue; */
   /* height: 100vh; */
   
@@ -227,7 +235,6 @@ grid-auto-rows: minmax(60px, auto);
   justify-items: center;
   justify-content: center;
 }
-
 
 
 button.aries{
