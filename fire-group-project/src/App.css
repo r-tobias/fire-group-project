@@ -3,7 +3,7 @@
 /* <------------------ Start of CSS for Home Page ------------------> */
   .home{
     display: flex;
-    margin: 60px;
+    margin: 50px;
   }
 
   .image {
@@ -183,6 +183,7 @@
     border: none;
     background-image: url('https://ps.w.org/dark-mode-for-wp-dashboard/assets/icon-256x256.png?rev=2404672');
     background-size: cover;
+    opacity: 0.5;
   }
 
   .dark .toggleDarkModeButton {
@@ -219,6 +220,16 @@
     font-size: 50px;
     text-shadow: 1px 1px black;
   }
+  .dark .toggleDarkModeButton:hover {
+    box-shadow: 2px 2px #D9B47B;
+    opacity: 1;
+
+  }
+  .toggleDarkModeButton:hover {
+    box-shadow: 2px 2px #D9B47B;
+    opacity: 1;
+  }
+  
 /* <------------------ End of CSS for Buttons in Dark Mode ------------------> */
 
 /* <------------------ Start of CSS for Zodiac Sign Buttons ------------------> */
@@ -284,12 +295,19 @@
     width: 100px;
     border: none;
   }
+  button.sagittarius:hover {
+    margin-top: -6px;
+    z-index: 1;
+  }
 
   button.capricorn{
     background-image: url('./images/Capricorn.png');
     height: 119px;
     width: 100px;
     border: none;
+  }
+  button.capricorn:hover {
+    margin-top: -6px;
   }
 
   button.aquarius{
@@ -298,12 +316,20 @@
     width: 100px;
     border: none;
   }
+  button.aquarius:hover {
+    margin-top: -6px;
+    z-index: 1;
+    
+  }
 
   button.pisces{
     background-image: url('./images/Pisces.png');
     height: 119px;
     width: 100px;
     border: none;
+  }
+  button.pisces:hover {
+    margin-top: -6px;
   }
 /* <------------------ End of CSS for Zodiac Sign Buttons ------------------> */
 
@@ -362,6 +388,7 @@ button.yesterday{
 /* <------------------ Start of CSS for the Zodiac Page ------------------> */
   .zodiac-container {
     display: flex;
+    height: 80vh;
     flex-direction: row;
     justify-items: center; 
     text-align: center;
@@ -413,10 +440,15 @@ button.yesterday{
   .zodiacImage{
     height: 65vh;
     position: relative;
-
-    top: 30px;
+    top: 50px;
     left: 90px;
+    animation: rotate 13s infinite linear;
   }  
+  @keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
 
   .textDiv{
      position: relative;
@@ -460,13 +492,20 @@ button.yesterday{
  /* <------------------ End of CSS for About Us Page ------------------> */
 
   .footer {
+    background: url('https://i.pinimg.com/originals/1f/b0/6b/1fb06be35a5689d0459519c91b052524.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
     bottom: 0%;
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 38px;
     background-color: #3E0C53;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white
+}
+
+.dark .footer {
+  background: url('https://thumbs.gfycat.com/EmotionalRadiantBovine-max-1mb.gif');
 }
