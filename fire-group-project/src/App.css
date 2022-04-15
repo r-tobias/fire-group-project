@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=My+Soul&family=Open+Sans:ital,wght@0,300;0,600;0,800;1,300&family=Plus+Jakarta+Sans:wght@200;500;800&family=Whisper&display=swap');
-.navbar {
-    /* background-color: #333; */
-    background: url('https://thumbs.gfycat.com/EmotionalRadiantBovine-max-1mb.gif');
-    /* width: 100%; */
+
+/* <------------------ Start of CSS for Home Page ------------------> */
+  .home{
     display: flex;
+<<<<<<< HEAD
     
     
     height: 100px;
@@ -16,20 +16,21 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'My Soul', cursive;
     font-size: 50px;
+=======
+    margin: 50px;
+>>>>>>> 61d2fd823cb09b4c4e7cf67a559916a3dc2bd660
   }
 
-  .navbar a {
+  .image {
     position: relative;
-    top: 10px;
-    left: 700px;
-    color: #f2f2f2;
+    left: 70px;
+  }
+  .homeText{
     text-align: center;
-    padding: 14px;
-    text-decoration: none;
-    font-size: 30px;  
-    
+    margin: 100px;
   }
 
+<<<<<<< HEAD
   h1 {
     font-family: 'My Soul', cursive;
   }
@@ -362,6 +363,8 @@ button.tomorrow{
   }
 
 
+=======
+>>>>>>> 61d2fd823cb09b4c4e7cf67a559916a3dc2bd660
   .clickHere{
     text-decoration: none;
     color: black;
@@ -376,30 +379,487 @@ button.tomorrow{
     color: white;
   }
 
+  .dark .clickHere {
+    color: white;
+  }
+  .dark .clickHere:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+/* <------------------ End of CSS for Home Page ------------------> */
+
+/* <------------------ Start of CSS for Home Page Nav Bar ------------------> */
+
+  .navbar {
+    display: flex;
+    align-items: stretch;
+    background: url('https://i.pinimg.com/originals/1f/b0/6b/1fb06be35a5689d0459519c91b052524.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    height: 100px;
+
+  }
+
+  .navbar h1 {
+    margin-top: 20px;
+    margin-left: 15px;
+    color: rgb(17, 17, 17);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'My Soul', cursive;
+    font-size: 50px;
+  }
+
+  .navbar a {
+    position: relative;
+    top: 10px;
+    left: 700px;
+    color: #0a0a0a;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 30px;   
+  }
+
+  .navbar a.active {
+    color: rgb(19, 18, 18);
+  }
+
+  .navbar a:hover {
+    background-color: transparent;
+    color: white;
+  }
+
+  nav a::after {
+    content: '';
+    display: block;
+    height: 7px;
+    background-color: rgb(71, 71, 71);
+    bottom: 1;
+    width: 0%;
+    transition: all ease-in-out 200ms;
+  }
+
+  nav a:hover::after {
+    width: 100%;
+  }
+
+  .dark .navbar {
+    background: url('https://thumbs.gfycat.com/EmotionalRadiantBovine-max-1mb.gif');
+  }
+
+  .dark .navbar h1 {
+    color: white;
+  }
+
+  .dark nav a::after {
+    content: '';
+    display: block;
+    height: 7px;
+    background-color: rgb(187, 187, 187);
+    bottom: 1;
+    width: 0%;
+    transition: all ease-in-out 200ms;
+  }
+
+  .dark nav a:hover::after {
+    width: 100%;
+  }
+
+
+  .dark .navbar a, a.active {
+    color: white;
+  }
+
+  h1 {
+    font-family: 'My Soul', cursive;
+  }
+
+  p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
+  }
+/* <------------------ End of CSS for Home Page Nav Bar ------------------> */
+
+  body {
+    background-image: url('https://www.publicdomainpictures.net/pictures/130000/nahled/purple-top-gradient-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+  }
+
+/* <------------------ Start of CSS for Buttons in Light Mode ------------------> */
+  button {
+    background-color: transparent;
+    margin: 27px;
+    padding: 50px;
+    font-size: 40px;
+    color: black;
+    text-shadow: 1px 1px black;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'My Soul', cursive;
+    line-height: 3.3;
+  }
+
+  button:hover {
+    background-color: #3E0C53;
+    box-shadow: 5px 7px black;
+    border-radius: 40%; 
+    color:black;
+    font-size: 50px;
+    text-shadow: 1px 1px white;
+  }
+/* <------------------ End of CSS for Buttons in Light Mode ------------------> */
+
+  .dark {
+    background-image: url('https://www.stockvault.net/data/2020/09/24/279149/preview16.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+
+/* <------------------ Start of CSS for Buttons in Dark Mode ------------------> */
+  .toggleDarkModeButton {
+    position: relative;
+    right: 540px;
+    top: 10px;
+    width: 40px;
+    padding: 0;
+    height: 40px;
+    border: none;
+    background-image: url('https://ps.w.org/dark-mode-for-wp-dashboard/assets/icon-256x256.png?rev=2404672');
+    background-size: cover;
+    opacity: 0.5;
+  }
+
+  .dark .toggleDarkModeButton {
+    position: relative;
+    right: 540px;
+    top: 10px;
+    width: 40px;
+    padding: 0;
+    height: 40px;
+    border: none;
+    background-image: url('images/sun.JPG');
+    border-radius: 50%;
+    background-size: cover;
+  }
+
+  .dark button {
+    background-color: transparent;
+    margin: 27px;
+    padding: 50px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px black !important;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'My Soul', cursive;
+  }
+
+  .dark button:hover {
+    background-color: #8b87e4; 
+    box-shadow: 5px 7px black;
+    border-radius: 40%; 
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+  }
+  .dark .toggleDarkModeButton:hover {
+    box-shadow: 2px 2px #D9B47B;
+    opacity: 1;
+
+  }
+  .toggleDarkModeButton:hover {
+    box-shadow: 2px 2px #D9B47B;
+    opacity: 1;
+  }
+  
+/* <------------------ End of CSS for Buttons in Dark Mode ------------------> */
+
+/* <------------------ Start of CSS for Zodiac Sign Buttons ------------------> */
+  button.aries{
+    background-image: url('./images/Aries.png');
+    height: 119px;
+    width: 100px;
+    border: none;
+  }
+
+  button.cancer{
+    background-image: url('./images/Cancer.png');
+    height: 119px;
+    width: 100px;
+    border: none;
+  }
+
+  button.taurus{
+    background-image: url('./images/Taurus.png');
+    height: 119px;
+    width: 100px;
+    border: none;
+  }
+
+  button.gemini{
+    background-image: url('./images/Gemini.png');
+    height: 119px;
+    width: 100px;
+    border: none;
+  }
+
+  button.leo{
+    background-image: url('./images/Leo.png');
+    height: 119px;
+    width: 100px;
+    border: none;
+  }
+
+  button.virgo{
+    background-image: url('./images/Virgo.png');
+    height: 119px;
+    width: 100px;
+    border: none;
+  }
+
+  button.libra{
+    background-image: url('./images/Libra.png');
+    height: 119px;
+    width: 100px;
+    border: none;
+  }
+
+  button.scorpio{
+    background-image: url('./images/Scorpio.png');
+    height: 119px;
+    width: 100px;
+    border: none;
+  }
+
+  button.sagittarius{
+    background-image: url('./images/Sagittarius.png');
+    height: 119px;
+    width: 100px;
+    border: none;
+  }
+  button.sagittarius:hover {
+    margin-top: -6px;
+    z-index: 1;
+  }
+
+  button.capricorn{
+    background-image: url('./images/Capricorn.png');
+    height: 119px;
+    width: 100px;
+    border: none;
+  }
+  button.capricorn:hover {
+    margin-top: -6px;
+  }
+
+  button.aquarius{
+    background-image: url('./images/Aquarius.png');
+    height: 119px;
+    width: 100px;
+    border: none;
+  }
+  button.aquarius:hover {
+    margin-top: -6px;
+    z-index: 1;
+    
+  }
+
+  button.pisces{
+    background-image: url('./images/Pisces.png');
+    height: 119px;
+    width: 100px;
+    border: none;
+  }
+  button.pisces:hover {
+    margin-top: -6px;
+  }
+/* <------------------ End of CSS for Zodiac Sign Buttons ------------------> */
+
+/* <------------------ Start of CSS for TimeFrame Buttons ------------------> */
+
+button.yesterday{
+    background-image: url('./images/glass-ball.jpg');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border: none;
+    text-align: center;
+    padding: 0px;
+    position: relative;
+    right: 25px;
+    line-height: 4;
+    text-shadow: 1px 1px white;
+
+  }
+
+  button.today{
+    background-image: url('./images/glass-ball.jpg');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border: none;
+    text-align: center;
+    padding: 0;
+    line-height: 4;
+    text-shadow: 1px 1px white;
+  }
+  button.today:hover {
+    margin: -6px;
+  }
+  button.yesterday:hover {
+    margin: -6px;
+   
+    
+  }
+  button.tomorrow:hover {
+    margin: -6px;
+  }
+
+  button.tomorrow{
+    background-image: url('./images/glass-ball.jpg');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border: none;
+    text-align: center;
+    padding: 0;
+    line-height: 4;
+    position: relative;
+    left: 25px;
+    text-shadow: 1px 1px white;
+    
+  }
+/* <------------------ End of CSS for TimeFrame Buttons ------------------> */
+
+/* <------------------ Start of CSS for the Zodiac Page ------------------> */
+  .zodiac-container {
+    display: flex;
+    height: 80vh;
+    flex-direction: row;
+    justify-items: center; 
+    text-align: center;
+    justify-content: center;
+    }
+
+  .result-container {
+    width: 500px;
+    }
+
+  .sign-container {
+    display: grid;
+    width: 50%;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(60px, auto);
+    }
+
+  .timeframe-result-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+  }
+  .timeframe-container {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .timeframe-container h1 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+/* <------------------ End of CSS for Zodiac Page ------------------> */
+
+/* <------------------ Start of CSS for History Page ------------------> */
+  .history{
+    display: flex;
+    margin: 30px;
+    margin-top: 0px;
+  }
+
+  .imageDiv{
+    width: 1100px; 
+    height: 0vh;
+  }
+
+  .zodiacImage{
+    height: 65vh;
+    position: relative;
+    top: 50px;
+    left: 90px;
+    animation: rotate 13s infinite linear;
+  }  
+  @keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+  .textDiv{
+     position: relative;
+     right: 90px;
+     width: 1000px;
+  }
+  
   .hr{
     width: 1200px;
     padding: 0px;
   }
+/* <------------------ End of CSS for History Page ------------------> */
+
+
+/* <------------------ Start of CSS for About Us Page ------------------> */
+  .aboutUs{
+    text-align: center;
+    margin: 10px;
+  }  
+    
+  .thisIsUs{
+
+    align-self: center;
+    height: 80px;
+    margin: 0px;
+  }
+  
+  .avatar{
+    margin-top: -60px;
+    border-bottom: solid white;
+    border-width: 5px;
+    width: 650px;
+
+  }  
+  
+  .ourSite{
+    width: 1300px;
+    margin: auto;
+    padding:0;
+  }
+ /* <------------------ End of CSS for About Us Page ------------------> */
 
   .footer {
+    background: url('https://i.pinimg.com/originals/1f/b0/6b/1fb06be35a5689d0459519c91b052524.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
     bottom: 0%;
     position: fixed;
-    /* left: 0px; */
     width: 100%;
-    height: 50px;
+    height: 38px;
     background-color: #3E0C53;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white
-    /* opacity: 0.5; */
-}
-  
-
-.zodiacImage{
-  height: 60vh;
 }
 
-
-
-  
+.dark .footer {
+  background: url('https://thumbs.gfycat.com/EmotionalRadiantBovine-max-1mb.gif');
+}
