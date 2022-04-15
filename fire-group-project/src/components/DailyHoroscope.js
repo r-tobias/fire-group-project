@@ -9,7 +9,7 @@ const [horoscope, setHoroscope] = useState('');
 
 
 
-useEffect(  ()=>{
+useEffect(()=>{
    const reading = async() =>{
     const zodiac = await fetchData(sign, timeframe)
         setHoroscope(zodiac)
@@ -26,6 +26,7 @@ useEffect(  ()=>{
             {horoscope ? <p>Date Range: {horoscope.date_range}</p> :<p></p>}
             {horoscope ? <p>Reading: {horoscope.description}</p> :<p></p>}
         <div>
+            
             {/* <h1> Daily Horoscope</h1> */}
 
         {/* <header>

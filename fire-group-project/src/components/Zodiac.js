@@ -14,14 +14,22 @@ function Zodiac(){
     const [timeframe, setTimeFrame] = useState(null)
     return(
         <div className='zodiac-container'>
-            <h1>Zodiac</h1>
-            <p>Sign Selected: {selectedSign}</p>
-            <p>Day Selected: {timeframe}</p>
-
+            <div className='sign-container'>
+            <h1>Choose a Zodiac</h1>
+            {/* <p>Sign Selected: {selectedSign}</p> */}
             <Button handleSelectedSign={setSelectedSign}/>
-            <TimeFrame time={setTimeFrame}/>
+            </div>
+            {/* {selectedSign ?<p>Day Selected: {timeframe}</p> :<p></p>} */}
+            <div className='timeframe-result-container'>
+            <div className='timeframe-container'>
+            {<TimeFrame time={setTimeFrame}/>}
+            </div>
+            <div className='result-container'>
+
             <DailyHoroscope sign={selectedSign}timeframe={timeframe} />
-            
+            </div>
+
+            </div>
         </div>
     )
 }

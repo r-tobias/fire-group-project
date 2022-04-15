@@ -7,6 +7,7 @@ import AboutUs from './components/AboutUs';
 import Zodiac from './components/Zodiac';
 import TimeFrame from './components/TimeFrame';
 import History from './components/History';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -34,10 +35,8 @@ function App() {
 
   return (
     <div className="App">
-      
       <nav className="navbar">
-          <h1>Horoscopia</h1>
-          
+          <h1>Horoscopia</h1> 
           <NavLink to="/"> Home </NavLink>
           <NavLink to="/zodiac"> Zodiac </NavLink>
           <NavLink to="/about"> About Us </NavLink>
@@ -47,12 +46,13 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Footer />} /> */}
         <Route path="/about" element={<AboutUs />} />
         <Route path="/zodiac" element={<Zodiac />} />
         <Route path="/time" element={<TimeFrame />} />
         <Route path="/history" element={<History />} />
       </Routes>
-
+      <Footer/>
     </div>
   );
 }

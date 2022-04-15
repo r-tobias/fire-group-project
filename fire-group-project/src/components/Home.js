@@ -5,6 +5,8 @@ import { NavLink } from 'react-router-dom'
 // import Button from './Button'
 
 
+
+
 function Home () {
     return(
         <div className="home">
@@ -12,12 +14,15 @@ function Home () {
             <img className="image" src={logo} alt="logo img"/>
         </div>
         <div className="homeText">
-            <h1>Welcome to Horoscopia!</h1>
+        <h1>Welcome to Horoscopia!</h1>
             <p>
-                In Horoscopia, you can get customized reading for yesterday, today, and tomorrow with a few simple clicks. <NavLink to="/zodiac">Click Here </NavLink> to find out what's in store for you today.
-            </p>
+             In Horoscopia, you can get customized reading for yesterday, today, and tomorrow with a few simple clicks. </p>
+             <p><NavLink to="/zodiac" className="clickHere"><b>Find out</b></NavLink> what's in store for you today.</p>
+             <div className="footer">
         </div>
         </div>
+        </div>
+        
     )
 }
 
