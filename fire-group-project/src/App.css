@@ -377,6 +377,7 @@ button.yesterday{
 /* <------------------ Start of CSS for the Zodiac Page ------------------> */
   .zodiac-container {
     display: flex;
+    height: 80vh;
     flex-direction: row;
     justify-items: center; 
     text-align: center;
@@ -428,10 +429,15 @@ button.yesterday{
   .zodiacImage{
     height: 65vh;
     position: relative;
-
-    top: 30px;
+    top: 50px;
     left: 90px;
+    animation: rotate 13s infinite linear;
   }  
+  @keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
 
   .textDiv{
      position: relative;
