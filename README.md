@@ -1,4 +1,5 @@
 ## :crystal_ball:Horoscope React App:crystal_ball:
+## Project Link: https://fancy-marigold-bc88f3.netlify.app/
 About Us:
 
 ### Members:
