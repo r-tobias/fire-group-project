@@ -8,7 +8,7 @@ function AboutUs(){
         <div className="thisIsUs">
         {/* <h2>About Us: </h2> */}
         <h1>Rebecca, Charlton, Demmy and Anne</h1>
-        <p>The greatest team known alive has come together to create a website that reveals your horoscope using Aztro (a horoscope API)</p>
+        <p>The greatest team known alive has come together to create a website that reveals your horoscope using Aztro and Sandipbgt (horoscope APIs)</p>
         </div>
         <hr className="hr"></hr>
         <div className="ourSite">
